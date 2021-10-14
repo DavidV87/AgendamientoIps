@@ -9,9 +9,9 @@ namespace Agendamiento.App.Persistencia
     public interface IRepositorioMedico
     {
         IEnumerable<Medico> GetAllMedicos();
-        Paciente AddMedico (Medico medico);
-        Paciente UpdateMedico (Medico medico);
-        Paciente GetMedico(int idMedico);
+        Medico AddMedico (Medico medico);
+        Medico UpdateMedico (Medico medico);
+        Medico GetMedico(int idMedico);
         void DeleteMedico (int idMedico);
     }
 }

@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Agendamiento.App.Persistencia
 {
-
     public class RepositorioPaciente : IRepositorioPaciente
     {
         /// <summary>
