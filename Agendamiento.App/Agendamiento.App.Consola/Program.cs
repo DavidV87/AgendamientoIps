@@ -1,4 +1,5 @@
 ﻿using System;
+using Agendamiento.App.Dominio;
 
 namespace Agendamiento.App.Consola
 {
