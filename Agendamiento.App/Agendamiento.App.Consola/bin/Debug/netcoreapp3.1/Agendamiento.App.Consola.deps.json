@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Agendamiento.App.Consola/1.0.0": {
         "dependencies": {
+          "Agendamiento.App.Dominio": "1.0.0",
           "Agendamiento.App.Persistencia": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.0"
         },

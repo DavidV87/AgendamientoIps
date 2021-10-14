@@ -25,6 +25,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\AgendamientoIps\\Agendamiento.App\\Agendamiento.App.Dominio\\Agendamiento.App.Dominio.csproj": {
+                "projectPath": "C:\\AgendamientoIps\\Agendamiento.App\\Agendamiento.App.Dominio\\Agendamiento.App.Dominio.csproj"
+              },
               "C:\\AgendamientoIps\\Agendamiento.App\\Agendamiento.App.Persistencia\\Agendamiento.App.Persistencia.csproj": {
                 "projectPath": "C:\\AgendamientoIps\\Agendamiento.App\\Agendamiento.App.Persistencia\\Agendamiento.App.Persistencia.csproj"
               }
