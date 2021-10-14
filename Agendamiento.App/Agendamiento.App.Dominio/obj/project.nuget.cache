@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OldmQkilwpETTHBxmrjD7Uxo6djCPszqtd9Q8owZ5pOcLnarsdES0eb++u7fd92mJObS0nR6Q7GuOCh33Z68wQ==",
+  "success": true,
+  "projectFilePath": "C:\\AgendamientoIps\\Agendamiento.App\\Agendamiento.App.Dominio\\Agendamiento.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elkin David\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Elkin David\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
