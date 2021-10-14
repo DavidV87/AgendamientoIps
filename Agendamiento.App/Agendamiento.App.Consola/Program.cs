@@ -11,7 +11,9 @@ namespace Agendamiento.App.Consola
         {
             Console.WriteLine("Hello World!");
             //AddPaciente();
-            BuscarPaciente(1);
+            BuscarPaciente(2);
+            ModificarPaciente(2);
+            BuscarPaciente(2);
         }
         private static void AddPaciente()
         {
@@ -32,6 +34,17 @@ namespace Agendamiento.App.Consola
         {
             var paciente = _repoPaciente.GetPaciente(idPaciente);
             Console.WriteLine("Nombre: "+paciente.Nombre+" "+paciente.Apellido+"  Género: "+paciente.Genero);
+        }
+        private static void ModificarPaciente(int idPaciente)
+        {
+            var paciente = _repoPaciente.GetPaciente(idPaciente);
+            paciente.Nombre="Elkin David";
+            paciente.Apellido ="Valencia Bonilla";
+            paciente.NumeroTelefono="3184016384";
+            paciente.Genero=Genero.Masculino;
+            paciente.Direccion="cra 27B 124 90";
+            paciente.Ciudad=Ciudad.Manizales;            
+            _repoPaciente.UpdatePaciente(paciente);
         }   
     }
 }
