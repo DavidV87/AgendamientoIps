@@ -10,7 +10,8 @@ namespace Agendamiento.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            AddPaciente();
+            //AddPaciente();
+            BuscarPaciente(1);
         }
         private static void AddPaciente()
         {
@@ -25,6 +26,12 @@ namespace Agendamiento.App.Consola
             };
             _repoPaciente.AddPaciente(paciente);
 
+        }
+
+        private static void BuscarPaciente(int idPaciente)
+        {
+            var paciente = _repoPaciente.GetPaciente(idPaciente);
+            Console.WriteLine("Nombre: "+paciente.Nombre+" "+paciente.Apellido+"  Género: "+paciente.Genero);
         }   
     }
 }
