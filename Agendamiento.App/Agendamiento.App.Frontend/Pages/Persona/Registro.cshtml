@@ -1,0 +1,73 @@
+﻿@page
+@model Agendamiento.App.Frontend.Pages.Persona.RegistroModel
+@{
+}
+<h1 class="display-4">Formulario de Registro</h1>
+<form class="row g-3">
+  <div class="col-md-4">
+    <label for="inputName" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+  </div>
+  <div class="col-md-4">
+    <label for="inputLastName" class="form-label">Apellido</label>
+    <input type="text" class="form-control" id="inputLastName" placeholder="Apellido">
+  </div>
+  <div class="col-md-4">
+    <label for="inputIdent" class="form-label">Identificacion</label>
+    <input type="text" class="form-control" id="inputIdent" placeholder="Numero de identificacion">
+  </div>
+  <div class="col-md-8">
+    <label for="inputAddress" class="form-label">Direccion</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Direccion">
+  </div>
+  <div class="col-auto">
+    <label for="inputCity" class="form-label">Ciudad</label>
+    <select id="inputCity" class="form-select">
+      <option selected>Manizales</option>
+      <option>Pereira</option>
+      <option>Armenia</option>
+      <option>Medellin</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="tucorreo@mail.com">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPhone" class="form-label">Telefono</label>
+    <input type="text" class="form-control" id="inputPhone" placeholder="Numero de telefono">
+  </div>
+   <div class="col-md-6">
+    <label for="inputAge" class="form-label">Edad</label>
+    <input type="text" class="form-control" id="inputAge" placeholder="Edad">
+  </div>
+  <div class="col-auto">
+    <label for="inputGender" class="form-label">Genero</label>
+    <select id="inputGender" class="form-select">
+      <option selected>Masculino</option>
+      <option>Femenino</option>
+      <option>Gay</option>
+      <option>Bisexual</option>
+      <option>Intersexual</option>
+      <option>Pansexual</option>
+      <option>Transexual</option>
+    </select>
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputUser" class="form-label">Usuario</label>
+    <input type="text" class="form-control" id="inputUser" placeholder="user">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword">
+  </div>
+  <div class="col-12">
+    <label for="inputIps" class="form-label">Sede Ips</label>
+    <input type="text" class="form-control" id="inputIps" placeholder="Sede">
+  </div>
+  
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
