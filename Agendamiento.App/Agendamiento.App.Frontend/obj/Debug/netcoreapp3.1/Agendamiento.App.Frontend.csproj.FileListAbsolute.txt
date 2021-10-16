@@ -37,3 +37,4 @@ C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\obj\Debug\netcorea
 C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\obj\Debug\netcoreapp3.1\Agendamiento.App.Frontend.csproj.CopyComplete
 C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Registro.cshtml.g.cs
 C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Medico.cshtml.g.cs
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\SedesIps\CrearSedes.cshtml.g.cs
