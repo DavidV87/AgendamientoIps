@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/030168d0-1d81-457d-a2f7-e2138e623249/resourceGroups/MisionTIC2022/providers/Microsoft.Web/sites/MisionTIC20222",
+    "appService.deploySubpath": "Agendamiento.App.Frontend\\publish"
+}
