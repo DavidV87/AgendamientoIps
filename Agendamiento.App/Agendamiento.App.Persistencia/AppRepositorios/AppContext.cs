@@ -15,7 +15,9 @@ namespace Agendamiento.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-               .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = BDAgendamientoIps");
+               .UseSqlServer("Server=tcp:agendamientoapp.database.windows.net,1433;Database = BDAgendamientoIps;User ID=Agendamiento ;Password=Agenda123.;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                //optionsBuilder
+               //.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = BDAgendamientoIps");
             
             }
         }

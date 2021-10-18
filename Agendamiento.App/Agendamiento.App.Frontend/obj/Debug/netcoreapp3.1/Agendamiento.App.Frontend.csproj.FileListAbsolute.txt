@@ -82,3 +82,5 @@ C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\bin\Debug\netcorea
 C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\bin\Debug\netcoreapp3.1\Agendamiento.App.Persistencia.dll
 C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\bin\Debug\netcoreapp3.1\Agendamiento.App.Persistencia.pdb
 C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\bin\Debug\netcoreapp3.1\Agendamiento.App.Dominio.pdb
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

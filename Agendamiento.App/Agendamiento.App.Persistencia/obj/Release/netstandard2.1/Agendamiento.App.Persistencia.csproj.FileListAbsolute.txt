@@ -1,0 +1,12 @@
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\bin\Release\netstandard2.1\Agendamiento.App.Persistencia.deps.json
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\bin\Release\netstandard2.1\Agendamiento.App.Persistencia.dll
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\bin\Release\netstandard2.1\Agendamiento.App.Persistencia.pdb
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\bin\Release\netstandard2.1\Agendamiento.App.Dominio.dll
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\bin\Release\netstandard2.1\Agendamiento.App.Dominio.pdb
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\obj\Release\netstandard2.1\Agendamiento.App.Persistencia.csprojAssemblyReference.cache
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\obj\Release\netstandard2.1\Agendamiento.App.Persistencia.AssemblyInfoInputs.cache
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\obj\Release\netstandard2.1\Agendamiento.App.Persistencia.AssemblyInfo.cs
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\obj\Release\netstandard2.1\Agendamiento.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\obj\Release\netstandard2.1\Agendamiento.App.Persistencia.csproj.CopyComplete
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\obj\Release\netstandard2.1\Agendamiento.App.Persistencia.dll
+C:\AgendamientoIps\Agendamiento.App\Agendamiento.App.Persistencia\obj\Release\netstandard2.1\Agendamiento.App.Persistencia.pdb
