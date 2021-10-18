@@ -1,32 +1,32 @@
 ﻿@page
+@using Agendamiento.App.Dominio
 @model Agendamiento.App.Frontend.Pages.SedesIps.CrearSedesModel
 @{
 }
 <h1 class="display-4">Sedes Ips</h1>
-<form class="row g-3">
+<form method="post" class="row g-3">
   <div class="col-md-4">
-    <label for="inputName" class="form-label">Nombre de sede</label>
-    <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+    <label asp-for="sedeIps.Nombre" class="form-control">Nombre de sede</label>
+    <input asp-for="sedeIps.Nombre" class="form-control" placeholder="Nombre">
   </div>
   <div class="col-md-4">
-    <label for="inputAddress" class="form-label">Direccion</label>
-    <input type="text" class="form-control" id="inputLastName" placeholder="Direccion">
+    <label asp-for="sedeIps.Direccion" class="form-control">Direccion</label>
+    <input asp-for="sedeIps.Direccion" class="form-control" placeholder="Direccion">
   </div>
   <div class="col-md-4">
-    <label for="inputCity" class="form-label">Ciudad</label>
-    <select id="inputCity" class="form-select">
-      <option selected>Manizales</option>
-      <option>Pereira</option>
-      <option>Armenia</option>
-      <option>Medellin</option>
+    <label asp-for="sedeIps.Ciudad" class="form-control">Ciudad</label>
+    <select asp-for="sedeIps.Ciudad" asp-items="Html.GetEnumSelectList<Ciudad>()" class="form-control">
     </select>
   </div>  
   <div class="col-md-6">
-    <label for="inputEmail" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail" placeholder="tucorreo@mail.com">
+    <label asp-for="sedeIps.Email" class="form-control">Email</label>
+    <input asp-for="sedeIps.Email" class="form-control" placeholder="tucorreo@mail.com">
   </div>
   <div class="col-md-6">
-    <label for="inputPhone" class="form-label">Telefono</label>
-    <input type="text" class="form-control" id="inputPhone" placeholder="Numero de telefono">
+    <label asp-for="sedeIps.Telefono" class="form-control">Telefono</label>
+    <input asp-for="sedeIps.Telefono" class="form-control" placeholder="Numero de telefono">
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Crear Sede</button>
   </div>
 </form>
