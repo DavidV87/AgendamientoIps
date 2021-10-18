@@ -17,6 +17,10 @@ namespace Agendamiento.App.Persistencia
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// </summary>
         /// <param name="appContext"></param>//
+        public RepositorioPaciente()
+        {
+            _appContext= new AppContext();
+        }
         public RepositorioPaciente(AppContext appContext)
         {
             _appContext = appContext;

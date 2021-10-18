@@ -10,6 +10,10 @@ namespace Agendamiento.App.Persistencia
     {
         private readonly AppContext _appContext; //recomendable por seguridad
 
+        public RepositorioMedico()
+        {
+            _appContext= new AppContext();
+        }
         public RepositorioMedico(AppContext appContext)
         {
             _appContext = appContext;

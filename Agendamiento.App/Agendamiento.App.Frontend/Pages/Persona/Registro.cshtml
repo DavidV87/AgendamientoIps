@@ -1,73 +1,52 @@
 ﻿@page
+@using Agendamiento.App.Dominio 
 @model Agendamiento.App.Frontend.Pages.Persona.RegistroModel
 @{
 }
 <h1 class="display-4">Formulario de Registro</h1>
-<form class="row g-3">
+<form method="post" class="row g-3">
   <div class="col-md-4">
-    <label for="inputName" class="form-label">Nombre</label>
-    <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+    <label asp-for="paciente.Nombre" class="form-control"></label>
+    <input asp-for="paciente.Nombre" class="form-control" placeholder="Nombre">
   </div>
   <div class="col-md-4">
-    <label for="inputLastName" class="form-label">Apellido</label>
-    <input type="text" class="form-control" id="inputLastName" placeholder="Apellido">
+    <label asp-for="paciente.Apellido" class="form-control"></label>
+    <input asp-for="paciente.Apellido" class="form-control" placeholder="Apellido">
   </div>
   <div class="col-md-4">
-    <label for="inputIdent" class="form-label">Identificacion</label>
-    <input type="text" class="form-control" id="inputIdent" placeholder="Numero de identificacion">
+    <label asp-for="paciente.NumeroDocumento" class="form-control"></label>
+    <input asp-for="paciente.NumeroDocumento" class="form-control" placeholder="Numero de identificacion">
   </div>
   <div class="col-md-8">
-    <label for="inputAddress" class="form-label">Direccion</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Direccion">
+    <label asp-for="paciente.Direccion" class="form-control"></label>
+    <input asp-for="paciente.Direccion" class="form-control" placeholder="Direccion">
   </div>
   <div class="col-auto">
-    <label for="inputCity" class="form-label">Ciudad</label>
-    <select id="inputCity" class="form-select">
-      <option selected>Manizales</option>
-      <option>Pereira</option>
-      <option>Armenia</option>
-      <option>Medellin</option>
+    <label asp-for="paciente.Ciudad" class="form-control"></label>
+    <select asp-for="paciente.Ciudad" asp-items="Html.GetEnumSelectList<Ciudad>()" class="form-control">
     </select>
   </div>
   <div class="col-md-6">
-    <label for="inputEmail" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail" placeholder="tucorreo@mail.com">
+    <label asp-for="paciente.Email" class="form-control"></label>
+    <input asp-for="paciente.Email" class="form-control" placeholder="tucorreo@mail.com">
   </div>
   <div class="col-md-6">
-    <label for="inputPhone" class="form-label">Telefono</label>
-    <input type="text" class="form-control" id="inputPhone" placeholder="Numero de telefono">
+    <label asp-for="paciente.NumeroTelefono" class="form-control"></label>
+    <input asp-for="paciente.NumeroTelefono" class="form-control" placeholder="Numero de telefono">
   </div>
    <div class="col-md-6">
-    <label for="inputAge" class="form-label">Edad</label>
-    <input type="text" class="form-control" id="inputAge" placeholder="Edad">
+    <label asp-for="paciente.Edad" class="form-control"></label>
+    <input asp-for="paciente.Edad" class="form-control" placeholder="Edad">
   </div>
   <div class="col-auto">
-    <label for="inputGender" class="form-label">Genero</label>
-    <select id="inputGender" class="form-select">
-      <option selected>Masculino</option>
-      <option>Femenino</option>
-      <option>Gay</option>
-      <option>Bisexual</option>
-      <option>Intersexual</option>
-      <option>Pansexual</option>
-      <option>Transexual</option>
+    <label asp-for="paciente.Genero" class="form-control"></label>
+    <select asp-for="paciente.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control">
     </select>
   </div>
-
-  <div class="col-md-6">
-    <label for="inputUser" class="form-label">Usuario</label>
-    <input type="text" class="form-control" id="inputUser" placeholder="user">
-  </div>
-  <div class="col-md-6">
-    <label for="inputPassword" class="form-label">Password</label>
-    <input type="password" class="form-control" id="inputPassword">
-  </div>
   <div class="col-12">
-    <label for="inputIps" class="form-label">Sede Ips</label>
-    <input type="text" class="form-control" id="inputIps" placeholder="Sede">
-  </div>
-  
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
+    <button type="submit" class="btn btn-primary">Crear Paciente</button>
   </div>
 </form>
+
+ 
+  
